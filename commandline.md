@@ -1,7 +1,7 @@
 Command Line Executions
 ------------------------
 
-##### Basic commands: #####
+#### Basic commands: ####
 
 `man` : Manual
 
@@ -93,7 +93,7 @@ Pipes redirect streams in the programme
 
 `chmod a-rx exmaple.txt`change permission, `a-rx` all users remove read and execute permissions from example file
 
-##### Environment commands: #####
+#### Environment commands: ####
 
 `env` : Display environment variables
 
@@ -109,7 +109,7 @@ Pipes redirect streams in the programme
 `ps x` : Shows all processes running on your computer
 
 
-##### Search commands: #####
+#### Search commands: ####
 
 ` * ` wild card - extremely useful for searching directories for file types or naming conventions
 
@@ -131,7 +131,7 @@ search command combination examples:
 `find ~ -name "*.txt" -print | grep README | wc -1`
 
 
-##### VIM commands: #####
+#### VIM commands: ####
 
 `vi exampleFile` : Creates a new empty file to edit in
 
