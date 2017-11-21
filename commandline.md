@@ -1,7 +1,7 @@
 Command Line Executions
 ------------------------
 
-#### Basic commands: ####
+### Basic commands: ###
 
 `man` : Manual
 
@@ -73,7 +73,7 @@ Pipes redirect streams in the programme
 
 `history` : Display command history
 
-##### Permission commands: #####
+### Permission commands: ###
 
 `whoami` : Display current user
 
@@ -93,7 +93,7 @@ Pipes redirect streams in the programme
 
 `chmod a-rx exmaple.txt`change permission, `a-rx` all users remove read and execute permissions from example file
 
-#### Environment commands: ####
+### Environment commands: ###
 
 `env` : Display environment variables
 
@@ -109,11 +109,11 @@ Pipes redirect streams in the programme
 `ps x` : Shows all processes running on your computer
 
 
-#### Search commands: ####
+### Search commands: ###
 
-` * ` wild card - extremely useful for searching directories for file types or naming conventions
+` * ` : Wild card - extremely useful for searching directories for file types or naming conventions
 
-`find` search command seeks particular files and/ or directories
+`find` : Search command seeks particular files and/ or directories
 `find [folder] -name [filename] -print` : find files in all folders named thus, and print to screen
 `cd ~/Music find . -name *.mp3 -print > myMusic.txt` : Make a file named myMusic, out of the list collected from the search command (all files ending in .mp3)
 
@@ -131,7 +131,7 @@ search command combination examples:
 `find ~ -name "*.txt" -print | grep README | wc -1`
 
 
-#### VIM commands: ####
+### VIM commands: ###
 
 `vi exampleFile` : Creates a new empty file to edit in
 
